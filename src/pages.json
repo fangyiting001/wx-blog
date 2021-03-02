@@ -1,0 +1,75 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小确幸",
+				"usingComponents": {
+					"van-search": "/wxcomponents/vant/dist/search/index"
+				},
+				"enablePullDownRefresh": true
+			}
+			
+		},
+		{
+			"path": "pages/index/info",
+			"style": {
+				"navigationBarTitleText": "生活中的小确幸",
+				"usingComponents": {
+					"van-toast": "/wxcomponents/vant/dist/toast/index"
+				}
+			}
+		},
+		{
+			"path": "pages/index/prosonalinfo",
+			"style": {
+				"navigationBarTitleText": "'Flag'小确幸"
+			}
+		},
+		{
+			"path": "pages/send/send",
+			"style": {
+				"navigationBarTitleText": "记录生活之小确幸"
+			}
+		},
+		{
+			"path": "pages/daily/daily",
+			"style": {
+				"navigationBarTitleText": "小确幸的日常"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#EFB336",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#efb336",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index0.png",
+				"selectedIconPath": "static/index1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/send/send",
+				"iconPath": "static/send.png",
+				"selectedIconPath": "static/send2.png",
+				"text": "记录"
+			},
+			{
+				"pagePath": "pages/daily/daily",
+				"iconPath": "static/sun.png",
+				"selectedIconPath": "static/sun2.png",
+				"text": "日常"
+			}
+		]
+	}
+}
